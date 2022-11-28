@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow:wght@300;400&family=Karla:wght@300;400&family=Michroma&family=Outfit:wght@100;500&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+&=Barlow:wght@300;400&family=Karla:wght@300;400&family=Michroma&family=Outfit:wght@100;500&family=Rubik:wght@300&display=swap');
 *{
     margin:0%;
     padding: 0%;
@@ -248,3 +248,36 @@ footer{
 .sign{
   left:1px
 }
+li::after{
+content: '';
+background-color: black;
+height: 2px;
+display: block;
+margin: auto;
+width: 0%;
+transition: 0.5s;
+}
+
+li:hover::after{
+    width:100% ;
+    
+}
+.big{
+    font-weight:bolder;
+}
+.eng button:hover{
+    border: 2px solid black;
+}
+footer li::after{
+    content: '';
+    background-color: black;
+    height: 0.5px;
+    display: block;
+    margin: auto;
+    width: 0%;
+    transition: 0.5s;
+    }
+    
+    li:hover::after{
+        width:100% ;
+    }
